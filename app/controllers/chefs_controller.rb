@@ -27,7 +27,7 @@ class ChefsController < ApplicationController
   def update
     if @chef.update(chef_params)
       flash[:success] = "Your profile has been updated successfully"
-      redirect_to chef_path(@chef))
+      redirect_to chef_path(@chef)
     else
       render 'edit'
     end
