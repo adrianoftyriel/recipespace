@@ -42,6 +42,7 @@ group :development, :test do
   
   gem 'pry'
 
+  gem 'fog', '1.23.0'
 end
 
 group :production do
