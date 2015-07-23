@@ -43,6 +43,7 @@ group :development, :test do
   gem 'pry'
 
   gem 'fog', '1.23.0'
+  gem 'fog-aws' 
 end
 
 group :production do
