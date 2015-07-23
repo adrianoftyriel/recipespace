@@ -24,7 +24,9 @@ gem 'bootstrap-will_paginate', '0.0.10'
 
 # Authentication
 gem 'bcrypt', '~> 3.1.7'
-  
+
+gem 'fog'
+gem 'fog-aws'  
 
 group :development, :test do
 
@@ -42,8 +44,7 @@ group :development, :test do
   
   gem 'pry'
 
-  gem 'fog'
-  gem 'fog-aws' 
+ 
 end
 
 group :production do
