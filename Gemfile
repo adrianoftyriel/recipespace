@@ -26,7 +26,6 @@ gem 'bootstrap-will_paginate', '0.0.10'
 gem 'bcrypt', '~> 3.1.7'
 
 gem 'fog'
-gem 'fog-aws'  
 
 group :development, :test do
 
